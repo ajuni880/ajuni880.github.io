@@ -18,7 +18,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: monospace, Helvetica, arial;
+    font-family: "Montserrat", Helvetica, arial;
     color: var(--black);
     background: var(--white);
     line-height: 1.8;
