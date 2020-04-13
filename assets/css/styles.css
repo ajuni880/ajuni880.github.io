@@ -38,8 +38,8 @@ h1 {
 .details__name {
     margin: 1rem 0 1.5rem;
     color: white;
-    background: linear-gradient(to right, black, white);
-    padding-left: 5px;
+    background: linear-gradient(to right, white, black, white);
+    text-align: center;
 }
 
 .details__from {
