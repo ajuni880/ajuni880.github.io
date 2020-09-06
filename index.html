@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script defer src="https://kit.fontawesome.com/b73e3cc3df.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="description" content="Software Developer"></meta>
     <meta name="keywords" content="full stack, web, javascript, c#, frontend, backend"></meta>
@@ -16,11 +16,16 @@
 <body>
     <div class="container">
         <div class="details">
-            <h1>Hello,</h1>
-            <h2 class="details__name">I am Junaid Aslam</h2>
+            <p>Hi there!</p>
+            <h1 class="details__name">I am Junaid Aslam</h1>
             <div class="details__from">
-                <p><span class="fas fa-code"></span> <span>Full Stack Developer</span></p>
+                <p><span class="fas fa-code"></span> <span>Frontend Developer</span></p>
                 <p><span class="fas fa-map-marker-alt"></span> <span>Barcelona</span></p>
+            </div>
+            <div class="details__about">
+                <p>
+                    I work as a full-time Frontend developer. I love to work with Javascript and its variety of frameworks. In my spare time I try to experiment with new technologies in the web or look under the hood how different libraries/frameworks that I use are built. And sometimes help people on Stackoverflow.
+                </p>
             </div>
         </div>
         <footer class="footer">
@@ -49,6 +54,12 @@
             </ul>
         </footer>
     </div>
+    <script>
+        var container = document.querySelector('.container')
+        container.addEventListener('animationend', () => {
+            document.body.classList.add('animate');
+        })
+    </script>
 </body>
 
 </html>
