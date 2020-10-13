@@ -1,8 +1,7 @@
 :root {
     --white: #f5f5f5;
     --dark-blue: #011E25;
-    --ocean-blue: #013746;
-    --gray: #313638;
+    --ocean-blue: #141D2E;
     --easing: cubic-bezier(0, 0, .2, 1);
 }
 
@@ -39,7 +38,7 @@ body::before {
     height: 100%;
     transform: scaleY(0);
     transform-origin: left center;
-    background: linear-gradient(135deg, var(--ocean-blue), var(--gray)) no-repeat;
+    background: var(--ocean-blue);
     display: block;
     animation: grow .5s var(--easing) forwards;
     z-index: -1;
